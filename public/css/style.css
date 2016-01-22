@@ -1,4 +1,50 @@
-.yesyes {
+body {
+  background-image: url(https://45.media.tumblr.com/7d6473482bd981094f7b0ebb97b92852/tumblr_n26bt4c5MW1rmmhuqo1_500.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: limegreen;
+}
 
-  color: red;
+h1 {
+  text-align: center;
+  color: yellow;
+  font-size: 10vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#newItem, #newDue, #newItemBTN {
+  border-radius: 4vw;
+  font-size: 3vw;
+}
+
+#newItemBTN:hover{
+  background-color: yellow;
+}
+
+#form {
+  display: flex;
+  width: 100vw;
+  height: 8vw;
+  justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#output {
+  background-color: yellow;
+  border: 2vw solid green;
+  font-size: 3vw;
+}
+
+.fuckingThisOne {
+display: flex;
+width: 80vw;
+justify-content: space-around;;
+align-items: center;
+  color: green;
+  margin: 2vw 0 2vw 0;
+  border-bottom: .5vw dashed green;
+}
+.yesyes {
+    color: red;
 }
