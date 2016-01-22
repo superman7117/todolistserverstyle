@@ -66,10 +66,10 @@ app.post('/names/complete', function(req, res, next) {
     console.log(arr[index].name);
 
     console.log("THE THING!:", arr[index])
-    if (arr[index].complete === 'nono') {
-			arr[index].complete = 'yesyes';
-		} else {
+    if (arr[index].complete === 'yesyes') {
 			arr[index].complete = 'nono';
+		} else {
+			arr[index].complete = 'yesyes';
 		}
 		fs.writeFile('./names.json', JSON.stringify(arr), function(err, data) {
 			if (err) return res.status(400).send(err);
